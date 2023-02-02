@@ -8,7 +8,7 @@ dockerを利用できる環境の作り方がわからないという方は[NVID
 
 ## 2. Build Image
 1.を基にdocker環境が構築できましたら、機械学習ようのdocker imageをビルドしましょう！  
-以下のコマンドを実行してください
+以下のコマンドを実行してください。
 ```
 $ git clone https://github.com/oriki101/kaggle_pytorch_docker.git #このリポジトリをclone
 $ cd kaggle_pytorch_docker
@@ -39,7 +39,7 @@ localhost:8888
 
 リモートPCで環境を起動した場合は  
 実行したPCのIPアドレス:8888  
-にアクセスしてください
+にアクセスしてください。
 
 ## 4. Explanation of envirionment
 機械学習環境にアクセスすると下の画像のような画面になると思います。
