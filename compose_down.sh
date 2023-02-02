@@ -1,0 +1,1 @@
+docker-compose -p $USER -f docker-compose.yml down

@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  kaggle_pytorch:
+    image: kaggle_pytorch:1.11.0-cuda11.3-cudnn8-runtime
+    runtime: nvidia 
+    ports:
+      - "8888:8888"
+    shm_size: '300gb'
+    environment:
+      DISPLAY: ${DISPLAY}
+      SCREEN_RESOLUTION: ${SCREEN_RESOLUTION}
+      VNC_PASSWORD: passpass
+      USE_VNC: "true"
+      LOCAL_UID: ${UID} 
+      LOCAL_GID: ${GID}
+    volumes:
+      - ../kaggle_pytorch_docker:/home/jovyan/kaggle_pytorch_docker
+    tty: "true"
