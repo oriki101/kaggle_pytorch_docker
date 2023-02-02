@@ -2,6 +2,14 @@
 このリポジトリは私がkaggleで機械学習をするためのdocker imageを作成するためのものです。  
 機械学習をしたいけど環境構築が難しくてできたいという方の役に立てば幸いです。
 
+深層学習フレーム
+- pytorch
+
+データフレーム操作
+- pandas
+- polars
+- cudf
+
 ## 1. Preparation
 機械学習ようの環境を構築するためにまずdockerをインストールしてください。  
 dockerを利用できる環境の作り方がわからないという方は[NVIDIA Dockerって今どうなってるの？](https://medium.com/nvidiajapan/nvidia-docker-%E3%81%A3%E3%81%A6%E4%BB%8A%E3%81%A9%E3%81%86%E3%81%AA%E3%81%A3%E3%81%A6%E3%82%8B%E3%81%AE-20-09-%E7%89%88-558fae883f44)を参考にしてください。
