@@ -104,21 +104,6 @@ RUN echo '\n\
 } \n\
 ' > $HOME/.jupyter/lab/user-settings/@jupyterlab/notebook-extension/tracker.jupyterlab-settings
 
-RUN echo '\
-{ \n\
-    "fontFamily": "Cascadia Code PL" \n\
-} \n\
-' > $HOME/.jupyter/lab/user-settings/@jupyterlab/terminal-extension/plugin.jupyterlab-settings
-
-RUN echo '\
-{ \n\
-    "editor.fontFamily": "\"Cascadia Code PL\" ", \n\
-    "editor.fontLigatures": null, \n\
-    "terminal.integrated.shell.linux": "/bin/bash" \n\
-} \n\
-' > $HOME/.local/share/code-server/User/settings.json
-
-
 USER root
 # COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 # RUN chmod +x /usr/local/bin/entrypoint.sh
