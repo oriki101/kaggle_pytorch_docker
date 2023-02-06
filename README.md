@@ -49,7 +49,7 @@ localhost:8888
 実行したPCのIPアドレス:8888  
 にアクセスしてください。
 
-## 4. Explanation of envirionment
+## 4. Explanation of environment
 機械学習環境にアクセスすると下の画像のような画面になると思います。
 
 ![preview](./fig/view.png)
