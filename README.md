@@ -11,11 +11,11 @@
 - cudf
 
 ## 1. Preparation
-機械学習ようの環境を構築するためにまずdockerをインストールしてください。  
+機械学習用用の環境を構築するためにまずdockerをインストールしてください。  
 dockerを利用できる環境の作り方がわからないという方は[NVIDIA Dockerって今どうなってるの？](https://medium.com/nvidiajapan/nvidia-docker-%E3%81%A3%E3%81%A6%E4%BB%8A%E3%81%A9%E3%81%86%E3%81%AA%E3%81%A3%E3%81%A6%E3%82%8B%E3%81%AE-20-09-%E7%89%88-558fae883f44)を参考にしてください。
 
 ## 2. Build Image
-1.を基にdocker環境が構築できましたら、機械学習ようのdocker imageをビルドしましょう！  
+1.を基にdocker環境が構築できましたら、機械学習用のdocker imageをビルドしましょう！  
 以下のコマンドを実行してください。
 ```
 $ git clone https://github.com/oriki101/kaggle_pytorch_docker.git #このリポジトリをclone
