@@ -48,7 +48,8 @@ RUN pip install jupyterlab-lsp
 RUN pip install 'python-lsp-server[all]'
 
 # install cudf
-RUN conda install -y -c rapidsai -c nvidia -c conda-forge cudf=22.12
+# RUN conda install -y -c rapidsai -c nvidia -c conda-forge cudf=22.12
+RUN conda install -y -c rapidsai -c nvidia -c conda-forge rapids=23.02
 RUN conda install -y libgcc
 RUN conda update -y numpy
 
